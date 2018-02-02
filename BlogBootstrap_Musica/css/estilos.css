@@ -41,6 +41,11 @@ body {
   text-align: justify;
 }
 
+/*BUSCADOR*/
+#search{
+  padding-bottom: 32px;
+}
+
 /*ESTILOS DE LOS TITULOS PRINCIPALES Y SECUNDARIOS*/
 p1{
   font-size: 20px;
@@ -107,6 +112,23 @@ p2{
   background-color: #5b5656;
   font-size: 16px;
 }
+/*ESTILO PARA SIDEBAR*/
+.sidebar{
+	width: 25%;
+	float: right;
+  font-size: 12px;
+}
+.sidebar li:hover{
+  color: #E03CB1!important;
+  font-size: 13px;
+}
+/*IMAGEN RESPONSIVE*/
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+  display:block
+}
+
 /*EFECTO DE BOTON ACTIVO Y OCULTAR LINEA DE LINK*/
 a:link
 {
@@ -114,4 +136,24 @@ a:link
 }
 .active{
   background-color:#353535;
+}
+
+/*ESTILO PARA PANTALLA MEDIA*/
+@media screen and (max-width:900px)
+{
+  .sidebar{
+    display: none;
+  }
+	.list-group{
+		display: none;
+  }
+  #header{
+    text-align: center;
+  }
+  #info-ini{
+		width: 100%;
+	}
+  #botons{
+    text-align: center;
+  }
 }
