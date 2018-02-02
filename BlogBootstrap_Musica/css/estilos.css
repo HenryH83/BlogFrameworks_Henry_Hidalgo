@@ -1,0 +1,30 @@
+/*ESTILO DE FONDO*/
+body {
+  background: url(../img/fondo.jpg);
+  font-family: 'Oswald', sans-serif;
+  background-attachment: scroll;
+  font-size: 13px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/*ESTILO DEL ENCABEZADO Y LOGO*/
+#header{
+	margin-top: 0px;
+  background-color: #d3dae5;
+}
+#logo{
+  font-size: 40px
+}
+#logo img{
+  width: 80px;
+  height: 80px;
+}
+/*ESTILO DE LOS BOTONES REDES SOCIALES*/
+#botons{
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align: right;
+}
