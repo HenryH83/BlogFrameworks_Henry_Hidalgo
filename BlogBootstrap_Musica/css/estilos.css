@@ -31,13 +31,26 @@ body {
   text-align: right;
 }
 
+/*ESTILO DE CONTENIDO ARTICULO */
+#info-ini{
+	width: 70%;
+	padding: 20px;
+	border-bottom: 2px solid #8a0a0a;
+	float: left;
+  color:white;
+  text-align: justify;
+}
+
 /*ESTILOS DE LOS TITULOS PRINCIPALES Y SECUNDARIOS*/
 p1{
   font-size: 20px;
   text-align: center;
   padding-bottom: 2px;
 }
-
+p2{
+  font-size: 18px;
+  color: white;
+}
 /* ESTILOS DE BOTON PARA REDES SOCIALES*/
 .fa {
   padding: 20px;
