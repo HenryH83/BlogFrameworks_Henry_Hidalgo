@@ -28,9 +28,16 @@ h3{
   font-family: 'Chewy', cursive;
 }
 
+.strong{
+  color: #e24141;
+}
+
 /*FONDO PARA BARRAS*/
 .bar-izquierda{
   background-color: rgba(237, 232, 232, 0.95);
+}
+.bar-derecha{
+  background-color: rgba(232, 220, 220, 0.90);
 }
 
 /*ESTILOS PARA NAVEGACIÓN*/
@@ -61,4 +68,11 @@ h3{
 }
 .historial li a:hover{
 	color: #e24141;
+}
+/*ESTILO DE ENTRADAS*/
+.entradas{
+  text-align: justify;
+}
+.fecha{
+  color: #e24141;
 }
