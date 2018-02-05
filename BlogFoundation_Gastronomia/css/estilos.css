@@ -17,8 +17,48 @@ h1{
   font-size: 30px;
   font-family: 'Luckiest Guy', cursive;
 }
+h2{
+  color: rgb(12, 12, 12);
+  font-size: 20px;
+  font-family: 'Chewy', cursive;
+}
 h3{
   color: rgb(255, 255, 255);
   font-size: 23px;
   font-family: 'Chewy', cursive;
+}
+
+/*FONDO PARA BARRAS*/
+.bar-izquierda{
+  background-color: rgba(237, 232, 232, 0.95);
+}
+
+/*ESTILOS PARA NAVEGACIÓN*/
+.navegacion a{
+  color: #f4493d;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+.navegacion li{
+	width: 100%;
+	border: 1px solid #ad9a98;
+}
+.navegacion li a:hover{
+	color: #c6362b;
+}
+.navegacion,.historial{
+  list-style: none;
+}
+
+/*ESTILO DEL HISTORIAL*/
+.historial a{
+  color: #efa207;
+  font-size: 15px;
+}
+.historial li{
+  margin: 1.5px;
+  margin-top: 10px;
+}
+.historial li a:hover{
+	color: #e24141;
 }
