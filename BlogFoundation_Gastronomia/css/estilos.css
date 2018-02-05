@@ -27,7 +27,6 @@ h3{
   font-size: 23px;
   font-family: 'Chewy', cursive;
 }
-
 .strong{
   color: #e24141;
 }
@@ -69,10 +68,19 @@ h3{
 .historial li a:hover{
 	color: #e24141;
 }
+
 /*ESTILO DE ENTRADAS*/
 .entradas{
   text-align: justify;
 }
 .fecha{
   color: #e24141;
+}
+
+/*ESTILO PARA PANTALLAS MEDIANAS*/
+@media screen and (max-width:600px)
+{
+  .col-izquierda{
+    display: none;
+  }
 }
