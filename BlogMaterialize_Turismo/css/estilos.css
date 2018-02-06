@@ -15,7 +15,7 @@ nav{
 	box-shadow: none;
 }
 /*ESTILOS PARA LOS TITULOS*/
-h2{
+h1{
   font-family: 'Norican', cursive;
   font-size: 25px;
 }
@@ -32,4 +32,24 @@ h2{
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+/* ASPECTO CONTENEDOR*/
+.content{
+  background-color: rgba(10 ,0,0,0.30);
+}
+.contenedor-img{
+  background-color: transparent;
+}
+/*BORDE DE IMAGENES y ESTILO DE PARRAFO */
+.contenedor-img img{
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*EFECTO BOTONES REDES SOCIALES*/
+#social .fa:hover{
+  color: #dbe56e;
 }
