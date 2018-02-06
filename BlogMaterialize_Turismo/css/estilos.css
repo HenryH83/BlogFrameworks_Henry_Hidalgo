@@ -1,0 +1,35 @@
+/*FONDO Y ESTILO DE FUENTE*/
+body{
+    background: url(../img/fondo.jpg)
+    no-repeat
+    center center
+    fixed;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+
+/*BARRA DE NAVEGACIÓN*/
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+/*ESTILOS PARA LOS TITULOS*/
+h2{
+  font-family: 'Norican', cursive;
+  font-size: 25px;
+}
+
+/*ESTILO DE BOTONES E ICONOS*/
+.btn{
+  border-radius: 10px 10px 10px 10px;
+}
+.material-icons{
+  margin-top: -0.7rem;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
