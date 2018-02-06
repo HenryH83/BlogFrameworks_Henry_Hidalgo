@@ -8,16 +8,23 @@ body{
 
 }
 
-
 /*BARRA DE NAVEGACIÓN*/
 nav{
 	background-color: transparent;
 	box-shadow: none;
 }
-/*ESTILOS PARA LOS TITULOS*/
+
+/*ESTILOS PARA LOS TITULOS E INPUTS*/
 h1{
   font-family: 'Norican', cursive;
   font-size: 25px;
+}
+p{
+  text-align: justify;
+}
+
+input{
+  color: white;
 }
 
 /*ESTILO DE BOTONES E ICONOS*/
@@ -41,6 +48,7 @@ h1{
 .contenedor-img{
   background-color: transparent;
 }
+
 /*BORDE DE IMAGENES y ESTILO DE PARRAFO */
 .contenedor-img img{
   border-radius: 5px;
@@ -49,6 +57,16 @@ h1{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+/* ESTILO DEL CONTENIDO */
+.card-content p{
+  font-size: 20px;
+}
+.nav-wrapper{
+  color: none;
+}
+.materialize-textarea{
+  color: white;
+}
 /*EFECTO BOTONES REDES SOCIALES*/
 #social .fa:hover{
   color: #dbe56e;
